@@ -1,0 +1,22 @@
+header {
+  height: 5em;
+  background-color: #fb8500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#logo-name {
+  padding: 0.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #219ebc;
+}

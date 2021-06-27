@@ -1,11 +1,11 @@
 import React from "react";
-import "./Main.css";
-import Search from "./Search/Search";
+import "./Home.css";
+import Search from "../../../components/Search/Search";
 import picrew from "./picrew.png";
 
-function Main() {
+function Home() {
   return (
-    <div id="main">
+    <div id="home">
       <div id="search">
         <img src={picrew} alt="Picrew" id="picrew" />
         <Search />
@@ -14,4 +14,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Home;

@@ -1,14 +1,17 @@
 import "./App.css";
-import Header from "./Header/Header";
-import Main from "./Main/Main";
+import { BrowserRouter } from "react-router-dom";
+import Header from "./components/Header/Header";
+import Main from "./containers/Main/Main";
 
 function App() {
   return (
-    <div className="App">
-      <Header id="header" />
-      <Main />
-      <div></div>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header id="header" />
+        <Main />
+        <div></div>
+      </div>
+    </BrowserRouter>
   );
 }
 

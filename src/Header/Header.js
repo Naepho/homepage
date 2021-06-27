@@ -10,6 +10,7 @@ function Header() {
           <HomeIcon style={{ fontSize: 30, color: "#219ebc" }} />
         </IconButton>
         <h1 id="logo-name">Naepho</h1>
+        <h2>Test</h2>
       </div>
     </header>
   );

@@ -11,3 +11,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #023047;
 }
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}

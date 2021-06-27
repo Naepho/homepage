@@ -7,10 +7,9 @@ function Header() {
     <header>
       <div id="logo">
         <IconButton>
-          <HomeIcon style={{ fontSize: 30, color: "#219ebc" }} />
+          <HomeIcon className="icon" />
         </IconButton>
         <h1 id="logo-name">Naepho</h1>
-        <h2>Test</h2>
       </div>
     </header>
   );

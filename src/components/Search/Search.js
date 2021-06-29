@@ -12,6 +12,7 @@ function Search() {
           type="text"
           name="q"
           placeholder="Search with Qwant"
+          autoComplete="off"
           autoFocus
         />
         <button id="button">

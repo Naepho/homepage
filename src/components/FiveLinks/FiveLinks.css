@@ -1,0 +1,27 @@
+.FiveLinks {
+  border: var(--orange) 2px solid;
+  border-radius: 5px;
+  margin-top: 0;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  padding: 1em;
+  background-color: var(--light-cornflower-blue);
+  color: var(--orange);
+  height: min-content;
+}
+
+.LinksList {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.listItem {
+  color: var(--orange);
+  padding: 0.2em;
+  font-size: 1.25em;
+}
+
+.link {
+  color: var(--prussian-blue);
+}

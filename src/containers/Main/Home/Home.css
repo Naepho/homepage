@@ -3,6 +3,7 @@
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 #picrew {
@@ -12,4 +13,14 @@
   padding: 0;
   width: 10em;
   height: 10em;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.separator {
+  height: 7em;
 }

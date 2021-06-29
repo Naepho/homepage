@@ -1,6 +1,6 @@
 header {
   height: 5em;
-  background-color: #fb8500;
+  background-color: var(--orange);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,10 +18,10 @@ header {
   padding: 0.5em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: #219ebc;
+  color: var(--blue-green);
 }
 
 .icon {
-  color: #219ebc;
+  color: var(--blue-green);
   transform: scale(1.4);
 }

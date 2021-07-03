@@ -50,7 +50,7 @@ function Home() {
     <div id="home">
       <div id="search">
         <img src={picrew} alt="Picrew" id="picrew" />
-        <Search />
+        <Search id="search" />
       </div>
       <div className="separator"></div>
       <div id="links">

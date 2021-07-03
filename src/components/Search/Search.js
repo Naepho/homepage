@@ -7,6 +7,7 @@ function Search() {
   return (
     <div>
       <form id="qwant" action="https://qwant.com/" method="get">
+        <div id="phantom-div-search"></div>
         <input
           id="bar"
           type="text"

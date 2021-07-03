@@ -24,3 +24,7 @@
 .separator {
   height: 7em;
 }
+
+#search {
+  width: 100%;
+}

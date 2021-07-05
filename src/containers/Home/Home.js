@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
-import Search from "../../../components/Search/Search";
-import FiveLinks from "../../../components/FiveLinks/FiveLinks";
+import Search from "../../components/Search/Search";
+import FiveLinks from "../../components/FiveLinks/FiveLinks";
 import picrew from "./picrew.png";
 
 function Home() {

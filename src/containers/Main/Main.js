@@ -1,8 +1,8 @@
 import React from "react";
 import { Route } from "react-router-dom";
 import "./Main.css";
-import Home from "./Home/Home";
-import Jdr from "./Jdr/Jdr";
+import Home from "../Home/Home";
+import Jdr from "../Jdr/Jdr";
 
 function Main() {
   return (

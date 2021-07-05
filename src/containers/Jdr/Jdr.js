@@ -1,8 +1,8 @@
 import React from "react";
 import "./Jdr.css";
-import Introduction from "../../../components/Introduction/Introduction";
-import ColumnLinks from "../../../components/ColumnLinks/ColumnLinks";
-import RowLinks from "../../../components/RowLinks/RowLinks";
+import Introduction from "../../components/Introduction/Introduction";
+import ColumnLinks from "../../components/ColumnLinks/ColumnLinks";
+import RowLinks from "../../components/RowLinks/RowLinks";
 
 function Jdr() {
   let introText =

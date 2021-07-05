@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
 import Search from "../../components/Search/Search";
 import FiveLinks from "../../components/FiveLinks/FiveLinks";
 import picrew from "./picrew.png";
 
 function Home() {
+  useEffect(() => {
+    document.title = "Home";
+  }, []);
+
   const linksFun = [
     { url: "https://www.youtube.com/", text: "Youtube" },
     { url: "https://www.twitch.tv/", text: "Twitch" },

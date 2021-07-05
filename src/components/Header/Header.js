@@ -24,7 +24,7 @@ function Header() {
           </li>
           <li>
             <Link to="/down" className="nav-link">
-              Téléchagement
+              Téléchargement
             </Link>
           </li>
           <li>

@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Jdr.css";
 import Introduction from "../../components/Introduction/Introduction";
 import ColumnLinks from "../../components/ColumnLinks/ColumnLinks";
 import RowLinks from "../../components/RowLinks/RowLinks";
 
 function Jdr() {
+  useEffect(() => {
+    document.title = "Jeu de rôle";
+  }, []);
   let introText =
     "Se trouvent ici énormément de liens sur le jeu de rôle. Que vous soyez joueur ou maître, vous trouverez votre bonheur.";
 

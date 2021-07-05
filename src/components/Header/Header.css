@@ -17,12 +17,32 @@ header {
 
 #logo-name {
   padding: 0.5em;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   color: var(--blue-green);
 }
 
 .icon {
   color: var(--blue-green);
   transform: scale(1.4);
+}
+
+#header-nav {
+  width: auto;
+}
+
+#header-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: large;
+  color: var(--blue-green);
+  padding: 0.5em;
+}
+
+#header-nav ul li:hover,
+#header-nav ul li:active {
+  transform: translateY(-3px);
 }

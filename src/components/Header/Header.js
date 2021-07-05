@@ -14,6 +14,26 @@ function Header() {
           <h1 id="logo-name">Naepho</h1>
         </Link>
       </div>
+
+      <nav id="header-nav">
+        <ul>
+          <li>
+            <Link to="/jdr" className="nav-link">
+              Jeu de rôle
+            </Link>
+          </li>
+          <li>
+            <Link to="/down" className="nav-link">
+              Téléchagement
+            </Link>
+          </li>
+          <li>
+            <Link to="/code" className="nav-link">
+              Programmation
+            </Link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }

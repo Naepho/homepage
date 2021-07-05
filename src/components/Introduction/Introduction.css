@@ -1,0 +1,27 @@
+.Introduction {
+  display: flex;
+  flex-direction: column;
+  border: var(--orange) 2px solid;
+  box-shadow: 0px 10px 5px #171d20;
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  padding: 1em;
+  background-color: var(--light-cornflower-blue);
+  color: var(--prussian-blue);
+  height: auto;
+  width: 25em;
+  justify-content: center;
+  align-items: center;
+}
+
+.Introduction p {
+  overflow: auto;
+  text-align: justify;
+}
+
+.introHR {
+  border: 1px solid var(--prussian-blue);
+  width: 100%;
+  margin: 0.5em;
+}

@@ -23,8 +23,8 @@ function Home() {
     { url: "https://coolors.co/", text: "Coolors" },
     { url: "https://trello.com/naepho/boards", text: "Trello" },
     {
-      url: "https://fr.khanacademy.org/profile/Naepho/courses?learn=1",
-      text: "Khan Academy",
+      url: "https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal",
+      text: "Wikipédia",
     },
   ];
 

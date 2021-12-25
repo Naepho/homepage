@@ -3,10 +3,10 @@
   padding: 0.5em;
   width: 30em;
   height: 2.5em;
-  border: 2px solid var(--orange);
-  background-color: var(--prussian-blue);
+  border: 2px solid var(/*--orange*/ --byzantium);
+  background-color: var(/*--prussian-blue*/ --oxford-blue);
   box-shadow: 0px 10px 5px #171d20;
-  color: var(--honey-yellow);
+  color: var(/*--honey-yellow*/ --vermilion);
   text-align: center;
   font-size: larger;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -19,11 +19,11 @@
 
 #button {
   border: none;
-  background-color: var(--prussian-blue);
+  background-color: var(/*--prussian-blue*/ --oxford-blue);
 }
 
 #icon {
-  color: var(--honey-yellow);
+  color: var(/*--honey-yellow*/ --vermilion);
   width: 1em;
   transform: scale(1.5);
 }

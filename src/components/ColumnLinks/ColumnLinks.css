@@ -1,14 +1,14 @@
 .columnLinks {
   display: flex;
   flex-direction: column;
-  border: var(--orange) 2px solid;
+  border: var(/*--orange*/ --byzantium) 2px solid;
   box-shadow: 0px 10px 5px #171d20;
   margin-top: 2.5em;
   margin-left: 1.5em;
   margin-right: 1.5em;
   padding: 1em;
-  background-color: var(--light-cornflower-blue);
-  color: var(--prussian-blue);
+  background-color: var(/*--light-cornflower-blue*/ --paolo-veronese-green);
+  color: var(/*--prussian-blue*/ --oxford-blue);
   height: auto;
   width: 25em;
   justify-content: center;
@@ -36,10 +36,10 @@
 .columnLinks-list li a {
   text-decoration: none;
   font-size: large;
-  color: var(--prussian-blue);
+  color: var(/*--prussian-blue*/ --oxford-blue);
 }
 
 .columnLinksHR {
-  border: 1px solid var(--prussian-blue);
+  border: 1px solid var(/*--prussian-blue*/ --oxford-blue);
   margin: 0.5em;
 }

@@ -3,6 +3,7 @@ import "./Home.css";
 import Search from "../../components/Search/Search";
 import FiveLinks from "../../components/FiveLinks/FiveLinks";
 import picrew from "./picrew.png";
+import padoru from "./padoru.png";
 
 function Home() {
   useEffect(() => {
@@ -53,7 +54,7 @@ function Home() {
   return (
     <div id="home">
       <div id="search">
-        <img src={picrew} alt="Picrew" id="picrew" />
+        <img src={padoru} alt="image" id="image" />
         <Search id="search" />
       </div>
       <div className="separator"></div>

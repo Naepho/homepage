@@ -1,6 +1,6 @@
 header {
   height: 5em;
-  background-color: var(--orange);
+  background-color: var(/*--orange*/ --byzantium);
   display: flex;
   justify-content: space-between;
   box-shadow: 0px 6px 5px #171d20;
@@ -17,11 +17,11 @@ header {
 
 #logo-name {
   padding: 0.5em;
-  color: var(--blue-green);
+  color: var(/*--blue-green*/ --blue-ncs);
 }
 
 .icon {
-  color: var(--blue-green);
+  color: var(/*--blue-green*/ --blue-ncs);
   transform: scale(1.4);
 }
 
@@ -38,7 +38,7 @@ header {
 .nav-link {
   text-decoration: none;
   font-size: large;
-  color: var(--blue-green);
+  color: var(/*--blue-green*/ --blue-ncs);
   padding: 0.5em;
 }
 

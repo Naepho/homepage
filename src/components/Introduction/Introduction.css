@@ -1,14 +1,14 @@
 .Introduction {
   display: flex;
   flex-direction: column;
-  border: var(--orange) 2px solid;
+  border: var(/*--orange*/ --byzantium) 2px solid;
   box-shadow: 0px 10px 5px #171d20;
   margin-top: 1.5em;
   margin-left: 1.5em;
   margin-right: 1.5em;
   padding: 1em;
-  background-color: var(--light-cornflower-blue);
-  color: var(--prussian-blue);
+  background-color: var(/*--light-cornflower-blue*/ --paolo-veronese-green);
+  color: var(/*--prussian-blue*/ --oxford-blue);
   height: auto;
   width: 25em;
   justify-content: center;
@@ -21,7 +21,7 @@
 }
 
 .introHR {
-  border: 1px solid var(--prussian-blue);
+  border: 1px solid var(/*--prussian-blue*/ --oxford-blue);
   width: 100%;
   margin: 0.5em;
 }

@@ -1,12 +1,12 @@
 .FiveLinks {
-  border: var(--orange) 2px solid;
+  border: var(/*--orange*/ --byzantium) 2px solid;
   box-shadow: 0px 10px 5px #171d20;
   margin-top: 0;
   margin-left: 1.5em;
   margin-right: 1.5em;
   padding: 1em;
-  background-color: var(--light-cornflower-blue);
-  color: var(--orange);
+  background-color: var(/*--light-cornflower-blue*/ --paolo-veronese-green);
+  color: var(/*--orange*/ --byzantium);
   height: min-content;
 }
 
@@ -17,11 +17,11 @@
 }
 
 .listItem {
-  color: var(--orange);
+  color: var(/*--orange*/ --byzantium);
   padding: 0.2em;
   font-size: 1.25em;
 }
 
 .link {
-  color: var(--prussian-blue);
+  color: var(/*--prussian-blue*/ --oxford-blue);
 }

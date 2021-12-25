@@ -21,7 +21,7 @@ function Home() {
     { url: "https://mail.protonmail.com/u/0/inbox", text: "ProtonMail" },
     { url: "https://www.office.com/?auth=1", text: "Office 365 Personal" },
     { url: "https://coolors.co/", text: "Coolors" },
-    { url: "https://trello.com/naepho/boards", text: "Trello" },
+    { url: "https://www.notion.so/7270d691fb2540888cac9f70738c9995?v=2575365248b2412396a50ce77f957e99", text: "Notion" },
     {
       url: "https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal",
       text: "Wikipédia",
@@ -29,24 +29,24 @@ function Home() {
   ];
 
   const linksDown = [
-    { url: "https://igg-games.com/", text: "IGG Games" },
-    { url: "https://fitgirl-repacks.site/", text: "FitGirl Repacks" },
-    { url: "https://gog-games.com/", text: "GOG Games" },
-    { url: "https://www.1377x.to/", text: "1377x" },
-    { url: "https://m.thepiratebay10.org/", text: "The Pirate Bay" },
+    { url: "https://z-lib.org/", text: "Z Lib" },
+    { url: "https://forum.dirtywarez.com/", text: "Dirty Warez" },
+    { url: "https://cs.rin.ru/forum/index.php", text: "cs.rin.ru" },
+    { url: "https://rentry.org/Piracy-BG", text: "Piracy Guide" },
+    { url: "https://github.com/Igglybuff/awesome-piracy", text: "Awesome Piracy" },
   ];
 
   const linksCode = [
     { url: "https://github.com/Naepho", text: "Github" },
-    { url: "https://www.freecodecamp.org/news/", text: "FreeCodeCamp" },
+    { url: "https://www.hackthebox.com/", text: "Hack The Box" },
     {
-      url: "https://reactjs.org/docs/getting-started.html",
-      text: "React docs",
+      url: "https://academy.hackthebox.com/dashboard",
+      text: "HTB Academy",
     },
-    { url: "https://en.cppreference.com/w/", text: "C++ docs" },
+    { url: "https://github.com/enaqx/awesome-pentest", text: "Awesome Pentest" },
     {
-      url: "https://docs.python.org/3.7/library/index.html",
-      text: "Python docs",
+      url: "https://github.com/jnv/lists",
+      text: "Everything",
     },
   ];
 

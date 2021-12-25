@@ -22,16 +22,6 @@ function Header() {
               Jeu de rôle
             </Link>
           </li>
-          <li>
-            <Link to="/down" className="nav-link">
-              Téléchargement
-            </Link>
-          </li>
-          <li>
-            <Link to="/code" className="nav-link">
-              Programmation
-            </Link>
-          </li>
         </ul>
       </nav>
     </header>

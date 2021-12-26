@@ -1,0 +1,14 @@
+#github {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#github-first-column {
+    width: min-content;
+}
+
+#github-second-column {
+    width: max-content;
+}

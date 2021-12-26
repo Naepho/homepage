@@ -22,6 +22,11 @@ function Header() {
               Jeu de rôle
             </Link>
           </li>
+          <li>
+          <Link to="/github" className="nav-link">
+              Github
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

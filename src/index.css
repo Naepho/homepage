@@ -12,6 +12,11 @@
   --oxford-blue: #01172fff;
   --vermilion: #e3170aff;
   --byzantium: #820263ff;
+
+  --backgroundColor: #111C2C;
+  --headerText: #FFAE03;
+  --headerColor: #D81159;
+  --textColor: #009FB7;
 }
 
 body {
@@ -20,7 +25,7 @@ body {
     "Lucida Sans", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(/*--prussian-blue*/ --oxford-blue);
+  background-color: var(/*--prussian-blue*/ --backgroundColor);
 }
 
 html,

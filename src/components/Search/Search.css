@@ -3,7 +3,11 @@
   padding: 0.5em;
   width: 30em;
   height: 2.5em;
-  border: 2px solid var(/*--orange*/ --headerColor);
+  border: 1px solid var(/*--orange*/ --headerColor);
+  border-bottom-left-radius: 55px;
+  border-bottom-right-radius: 55px;
+  border-top-left-radius: 55px;
+  border-top-right-radius: 55px;
   background-color: var(/*--prussian-blue*/ --backgroundColor);
   box-shadow: 0px 10px 5px #171d20;
   color: var(/*--honey-yellow*/ --textColor);
@@ -28,8 +32,7 @@
   transform: scale(1.5);
 }
 
-#qwant {
-  display: flex;
+#google {
   justify-content: center;
   width: 100%;
 }

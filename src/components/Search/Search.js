@@ -6,21 +6,22 @@ import IconButton from "@material-ui/core/IconButton";
 function Search() {
   return (
     <div>
-      <form id="qwant" action="https://searx.be/" method="get">
+      <form id="google" action="https://www.google.be/search" method="get">
         <div id="phantom-div-search"></div>
         <input
           id="bar"
           type="text"
           name="q"
-          placeholder="Search with SearX"
+          placeholder="Search with Google"
           autoComplete="off"
           autoFocus
         />
+        {/*
         <button id="button">
           <IconButton>
             <SearchIcon id="icon" />
-          </IconButton>
-        </button>
+        </IconButton>
+        </button> */}
       </form>
     </div>
   );

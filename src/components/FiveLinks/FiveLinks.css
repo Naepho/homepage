@@ -1,5 +1,6 @@
 .FiveLinks {
   border: var(/*--orange*/ --headerColor) 2px solid;
+  border-radius: 5px;
   box-shadow: 0px 10px 5px #171d20;
   margin-top: 0;
   margin-left: 1.5em;

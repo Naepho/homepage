@@ -20,7 +20,7 @@ function Home() {
 
   const linksUseful = [
     { url: "https://fr.overleaf.com/project", text: "Overleaf" },
-    { url: "https://www.office.com/?auth=1", text: "Office 365 Personal" },
+    { url: "https://www.office.com/?auth=2", text: "Office 365 Personal" },
     { url: "https://coolors.co/", text: "Coolors" },
     { url: "https://www.notion.so/naepho/", text: "Notion" },
     {

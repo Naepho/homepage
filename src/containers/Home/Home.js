@@ -21,7 +21,7 @@ function Home() {
   const linksUseful = [
     { url: "https://fr.overleaf.com/project", text: "Overleaf" },
     { url: "https://monkeytype.com/", text: "MonkeyType" },
-    { url: "https://coolors.co/", text: "Coolors" },
+    { url: "https://github.com/jnv/lists/", text: "Everything" },
     { url: "https://www.notion.so/naepho/", text: "Notion" },
     {
       url: "https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal",
@@ -46,8 +46,8 @@ function Home() {
     },
     { url: "https://www.cnbc.com/world/?region=world", text: "CNBC" },
     {
-      url: "https://github.com/jnv/lists",
-      text: "Everything",
+      url: "https://feedly.com/i/my",
+      text: "Feedly",
     },
   ];
 

@@ -12,7 +12,7 @@ This is my homepage for my web browser.
 
 - Overleaf
 - Monkeytype
-- Coolors
+- Everything
 - Notion
 - Wikipédia
 
@@ -26,4 +26,4 @@ This is my homepage for my web browser.
 - TV
 - Oanda
 - CNBC
-- Everything
+- Feedly

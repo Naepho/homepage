@@ -13,14 +13,14 @@ function Home() {
   const linksFun = [
     { url: "https://www.youtube.com/", text: "Youtube" },
     { url: "https://www.twitch.tv/", text: "Twitch" },
-    { url: "https://neko-sama.fr/anime", text: "Neko-sama" },
+    { url: "https://play.pokemonshowdown.com/", text: "Showdown !" },
     { url: "https://www.facebook.com/", text: "Facebook" },
     { url: "https://tweetdeck.twitter.com/", text: "Twitter" },
   ];
 
   const linksUseful = [
     { url: "https://fr.overleaf.com/project", text: "Overleaf" },
-    { url: "https://www.office.com/?auth=2", text: "Office 365 Personal" },
+    { url: "https://monkeytype.com/", text: "MonkeyType" },
     { url: "https://coolors.co/", text: "Coolors" },
     { url: "https://www.notion.so/naepho/", text: "Notion" },
     {
@@ -39,12 +39,12 @@ function Home() {
 
   const linksCode = [
     { url: "https://github.com/Naepho", text: "Github" },
-    { url: "https://www.hackthebox.com/", text: "Hack The Box" },
+    { url: "https://www.tradingview.com/", text: "Trading View" },
     {
-      url: "https://academy.hackthebox.com/dashboard",
-      text: "HTB Academy",
+      url: "https://www.oanda.com/lang/fr/demo-account/",
+      text: "Oanda",
     },
-    { url: "https://github.com/enaqx/awesome-pentest", text: "Awesome Pentest" },
+    { url: "https://www.cnbc.com/world/?region=world", text: "CNBC" },
     {
       url: "https://github.com/jnv/lists",
       text: "Everything",
